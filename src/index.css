@@ -1,0 +1,39 @@
+body {
+  background-color: #22254b;
+}
+
+.app-container {
+  display: flex;  /*기본적으로 row이기 때문에 가로로 배치*/
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-container {
+  width: 170px;
+  background-color: #373b69;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+  margin: 15px;
+  border: none;
+}
+
+.movie-container img {
+  max-width: 100%;
+}
+
+.movie-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.movie-info h4 {
+  margin: 0;
+}
+
+.movie-info span {
+  margin-left: 3px;
+}
